@@ -1,10 +1,24 @@
 # Unity-Terrain-Shadergraph
 
-A simple procedural terrain shadergraph for unity's inbuilt terrain system 
+A simple procedural terrain shadergraph for unity's inbuilt terrain system  created with Unity URP 2022.2.2f1
 
 Tested with Unity URP 2022.2
 
 Will only work in newer versions of unity that have enabled shadergraphs for unity terrain, may work in earlier versions on standard mesh terrains.
+
+Features
+  - Detail and Distance textures
+  - Five detail textures (shore/sea, ground, mountain, peak, cliff)
+  - Five distance textures (shore/sea, ground, mountain, peak, cliff)
+  - Automatically transitions between textures according to height (shore/sea, ground, mountain, peak) and angle (cliff)
+  - Tri-Planar for cliffs (to prevent texture warping)
+  - Two different blend modes between detail and distance textures:
+      1. Overlay blend (combines distance and detail textures together)
+      2. Transition (seemlessly transitions between distance and detail textures according to camera distance)
+  - Automatic generation of normal maps (it's a bit hacky but it works)
+  - Seemlessly transitions between distance and detail normals based on camera distance
+  - Smoothness, Metallic, and Color settings for each texture
+  - Doesn't need splatmaps, great for procedural terrain
 
 Desert Distance
 ![Desert_Distance](https://user-images.githubusercontent.com/67586167/214444915-bb697dc7-62b4-40c1-9159-a69c40e6fcad.jpg)
@@ -25,21 +39,7 @@ Ice Detail
 ![Ice_Detail](https://user-images.githubusercontent.com/67586167/214445102-b2b0eb54-0db0-4bd5-97e3-cc36fe7c6e61.jpg)
 
 Inspector
-![Inspector](https://user-images.githubusercontent.com/67586167/214447555-ddb507dd-9050-44ec-bd06-8dfadee7bf63.jpg)
-
-Features
-  - Detail and Distance textures
-  - Five detail textures (shore/sea, ground, mountain, peak, cliff)
-  - Five distance textures (shore/sea, ground, mountain, peak, cliff)
-  - Automatically transitions between textures according to height (shore/sea, ground, mountain, peak) and angle (cliff)
-  - Tri-Planar for cliffs (to prevent texture warping)
-  - Two different blend modes between detail and distance textures:
-      1. Overlay blend (combines distance and detail textures together)
-      2. Transition (seemlessly transitions between distance and detail textures according to camera distance)
-  - Automatic generation of normal maps (it's a bit hacky but it works)
-  - Seemlessly transitions between distance and detail normals based on camera distance
-  - Smoothness, Metallic, and Color settings for each texture
-  - Doesn't need splatmaps, great for procedural terrain 
+![Inspector](https://user-images.githubusercontent.com/67586167/214447555-ddb507dd-9050-44ec-bd06-8dfadee7bf63.jpg) 
 
 How to use
   1. Add the shader and sub-shaders to your project 
