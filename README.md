@@ -24,6 +24,9 @@ Ice Distance
 Ice Detail
 ![Ice_Detail](https://user-images.githubusercontent.com/67586167/214445102-b2b0eb54-0db0-4bd5-97e3-cc36fe7c6e61.jpg)
 
+Inspector
+![Inspector](https://user-images.githubusercontent.com/67586167/214447555-ddb507dd-9050-44ec-bd06-8dfadee7bf63.jpg)
+
 Features
   - Detail and Distance textures
   - Five detail textures (shore/sea, ground, mountain, peak, cliff)
