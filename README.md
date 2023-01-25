@@ -43,9 +43,9 @@ How To Use
   6. Add your textures in the material inspector
   
 Some Hints and Tips 
-  1. The texture height is set relative the terrain texture height i.e. if your terrain is set 600 height all your texture heights will be lower than this.
-  2. Normals for distance textures need to be A LOT HIGHER than detail textures, a detail texture normal will normal be between 1-5 but distance texture will be between 2000-3000
-  3. For height textures (shore/sea, ground, mountain, peak) the scaling is as you would expect. For detail textures 2000 means that the texture will be tiled 2000 times across the terrain, whereas 1 for distance textures means that the texture will stretch to cover the whole terrain, BUT because of Tri-Planar cliff scaling is inverted so you will be typing in values like 0.005 or 0.1. 
+  - The texture height is set relative the terrain texture height i.e. if your terrain is set 600 height all your texture heights will be lower than this.
+  - Normals for distance textures need to be A LOT HIGHER than detail textures, a detail texture normal will normal be between 1-5 but distance texture will be between 2000-3000
+  - For height textures (shore/sea, ground, mountain, peak) the scaling is as you would expect. For detail textures 2000 means that the texture will be tiled 2000 times across the terrain, whereas 1 for distance textures means that the texture will stretch to cover the whole terrain, BUT because of Tri-Planar cliff scaling is inverted so you will be typing in values like 0.005 or 0.1. 
 
 I have included a bunch of examples in the 'Examples' folder. This folder is not essential and can be deleted.
 
