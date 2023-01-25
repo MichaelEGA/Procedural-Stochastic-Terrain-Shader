@@ -2,8 +2,6 @@
 
 A simple procedural terrain shadergraph for unity's inbuilt terrain system  created with Unity URP 2022.2.2f1
 
-Tested with Unity URP 2022.2
-
 Will only work in newer versions of unity that have enabled shadergraphs for unity terrain, may work in earlier versions on standard mesh terrains.
 
 Features
