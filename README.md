@@ -16,6 +16,7 @@ Features
   - Automatic generation of normal maps (it's a bit hacky but it works)
   - Smoothness, Metallic, Normal and Color settings for each individual texture
   - Seemlessly transitions between distance and detail normal, smoothness, and mettalic settings based on camera distance
+  - Use noise to variegate ground layer between ground texture and mountain texture
   - Doesn't need splatmaps, great for procedural terrain
 
 ![Desert_Distance](https://user-images.githubusercontent.com/67586167/214444915-bb697dc7-62b4-40c1-9159-a69c40e6fcad.jpg)
