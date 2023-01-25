@@ -2,7 +2,7 @@
 
 A simple procedural terrain shadergraph for Unity's inbuilt terrain system  created with Unity URP 2022.2.2f1
 
-Will only work in newer versions of Unity that have enabled shadergraphs for Unity terrain, may work in earlier versions on standard mesh terrains.
+Will only work in newer versions of Unity that have enabled shadergraphs for Unity terrain, may work in earlier versions on standard mesh terrains but hasn't been tested.
 
 Features
   - Detail and Distance textures
@@ -15,7 +15,7 @@ Features
       2. Transition (seemlessly transitions between distance and detail textures according to camera distance)
   - Automatic generation of normal maps (it's a bit hacky but it works)
   - Smoothness, Metallic, Normal and Color settings for each individual texture
-  - Seemlessly transitions between distance and detail normal, smoothness, and mettalic settings based on camera distance
+  - Seemlessly transitions between normal, smoothness, and metallic settings based on camera distance
   - Use noise to variegate ground layer between ground texture and mountain texture
   - Doesn't need splatmaps, great for procedural terrain
 
