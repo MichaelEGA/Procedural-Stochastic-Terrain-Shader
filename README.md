@@ -50,7 +50,5 @@ Some Hints and Tips
 I have included a bunch of examples in the 'Examples' folder. This folder is not essential and can be deleted.
 
 Credits
-I used some custom height blending code by GrrrimReapz on Reddit
-https://www.reddit.com/r/Unity3D/comments/pr6sld/height_blending_materials_in_shadergraph/
-I implemented some of Snubber's ideas from his video on youtube
-https://www.youtube.com/watch?v=uJSxqr3a0cA&ab_channel=Snubber
+  - I used some custom height blending code by GrrrimReapz on Reddit: https://www.reddit.com/r/Unity3D/comments/pr6sld/height_blending_materials_in_shadergraph/
+  - I implemented some of Snubber's ideas from his video on youtube: https://www.youtube.com/watch?v=uJSxqr3a0cA&ab_channel=Snubber
