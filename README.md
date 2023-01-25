@@ -20,28 +20,21 @@ Features
   - Smoothness, Metallic, and Color settings for each texture
   - Doesn't need splatmaps, great for procedural terrain
 
-Desert Distance
 ![Desert_Distance](https://user-images.githubusercontent.com/67586167/214444915-bb697dc7-62b4-40c1-9159-a69c40e6fcad.jpg)
 
-Desert Detail
 ![Desert_Detail](https://user-images.githubusercontent.com/67586167/214444958-3a44e7a5-f501-49c9-8416-74bbd50c322e.jpg)
 
-Grasslands Distance
 ![Grasslands_Distance](https://user-images.githubusercontent.com/67586167/214445005-8e6faa5f-0b4b-4651-8333-cfe348a48a8a.jpg)
 
-Grasslands Detail
 ![Grasslands_Detail](https://user-images.githubusercontent.com/67586167/214445041-404684f9-6ba8-44f8-a291-1dde3a302022.jpg)
 
-Ice Distance
 ![Ice_Distance](https://user-images.githubusercontent.com/67586167/214445065-799eea04-01db-4d2b-a540-7f9d4da4b700.jpg)
 
-Ice Detail
 ![Ice_Detail](https://user-images.githubusercontent.com/67586167/214445102-b2b0eb54-0db0-4bd5-97e3-cc36fe7c6e61.jpg)
 
-Inspector
 ![Inspector](https://user-images.githubusercontent.com/67586167/214447555-ddb507dd-9050-44ec-bd06-8dfadee7bf63.jpg) 
 
-How to use
+How To Use
   1. Add the shader and sub-shaders to your project 
   2. Create a new terrain
   3. Create a material 
@@ -49,9 +42,15 @@ How to use
   5. Add the material to the terrain settings in the inspector
   6. Add your textures in the material inspector
   
- Some hints and tips 
-    - The texture height is set relative the terrain texture height i.e. if your terrain is set 600 height all your texture heights will be lower than this.
-    - Normals for distance textures need to be A LOT HIGHER than detail textures, a detail texture normal will normal be between 1-5 but distance texture will be between 2000-3000
-    - For height textures (shore/sea, ground, mountain, peak) the scaling is as you would expect. For detail textures 2000 means that the texture will be tiled 2000 times across the terrain, whereas 1 for distance textures means that the texture will stretch to cover the whole terrain, BUT because of Tri-Planar cliff scaling is inverted so you will be typing in values like 0.005 or 0.1. 
+Some Hints and Tips 
+  1. The texture height is set relative the terrain texture height i.e. if your terrain is set 600 height all your texture heights will be lower than this.
+  2. Normals for distance textures need to be A LOT HIGHER than detail textures, a detail texture normal will normal be between 1-5 but distance texture will be between 2000-3000
+  3. For height textures (shore/sea, ground, mountain, peak) the scaling is as you would expect. For detail textures 2000 means that the texture will be tiled 2000 times across the terrain, whereas 1 for distance textures means that the texture will stretch to cover the whole terrain, BUT because of Tri-Planar cliff scaling is inverted so you will be typing in values like 0.005 or 0.1. 
 
 I have included a bunch of examples in the 'Examples' folder. This folder is not essential and can be deleted.
+
+Credits
+I used some custom height blending code by GrrrimReapz on Reddit
+https://www.reddit.com/r/Unity3D/comments/pr6sld/height_blending_materials_in_shadergraph/
+I implemented some of Snubber's ideas from his video on youtube
+https://www.youtube.com/watch?v=uJSxqr3a0cA&ab_channel=Snubber
