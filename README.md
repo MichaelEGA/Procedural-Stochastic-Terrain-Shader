@@ -24,28 +24,28 @@ Features
   - Doesn't need splatmaps, great for procedural terrain
   - Stochastic texturing option (Doesn't work across neighbour terrains unfortunately, so you can turn it off if your using more than one terrain)
 
-DISTANCE
+Distance
 ![Desert_Distance](https://user-images.githubusercontent.com/67586167/214444915-bb697dc7-62b4-40c1-9159-a69c40e6fcad.jpg)
 
-DETAIL
+Detail
 ![Desert_Detail](https://user-images.githubusercontent.com/67586167/214444958-3a44e7a5-f501-49c9-8416-74bbd50c322e.jpg)
 
-DISTANCE
+Distance
 ![Grasslands_Distance](https://user-images.githubusercontent.com/67586167/214445005-8e6faa5f-0b4b-4651-8333-cfe348a48a8a.jpg)
 
-DETAIL
+Detail
 ![Grasslands_Detail](https://user-images.githubusercontent.com/67586167/214445041-404684f9-6ba8-44f8-a291-1dde3a302022.jpg)
 
-DISTANCE
+Distance
 ![Ice_Distance](https://user-images.githubusercontent.com/67586167/214445065-799eea04-01db-4d2b-a540-7f9d4da4b700.jpg)
 
-DETAIL
+Detail
 ![Ice_Detail](https://user-images.githubusercontent.com/67586167/214445102-b2b0eb54-0db0-4bd5-97e3-cc36fe7c6e61.jpg)
 
-STOCHASTIC OFF
+Stochastic Off
 ![StochasticOff](https://user-images.githubusercontent.com/67586167/215687950-4329abc6-bfb1-4dbe-a5e5-2b1eade22a30.jpg)
 
-STOCHASTIC ON
+Stochastic On
 ![StochasticOn](https://user-images.githubusercontent.com/67586167/215688021-6817aa60-56d1-45c9-b014-9d2ee4412f84.jpg)
 
 ![Inspector](https://user-images.githubusercontent.com/67586167/214447555-ddb507dd-9050-44ec-bd06-8dfadee7bf63.jpg) 
