@@ -5,8 +5,8 @@ A simple procedural terrain shadergraph for Unity's inbuilt terrain system creat
 Will only work in newer versions of Unity that have enabled shadergraphs for Unity terrain, may work in earlier versions on standard mesh terrains but hasn't been tested.
 
 Version History
-31/01/2023 - Added stochastic node option
-25/01/2023 - Initial commit
+  - 31/01/2023 - Added stochastic node option
+  - 25/01/2023 - Initial commit
 
 Features
   - Detail and Distance textures
@@ -42,15 +42,13 @@ DISTANCE
 DETAIL
 ![Ice_Detail](https://user-images.githubusercontent.com/67586167/214445102-b2b0eb54-0db0-4bd5-97e3-cc36fe7c6e61.jpg)
 
-INSPECTOR
-![Inspector](https://user-images.githubusercontent.com/67586167/214447555-ddb507dd-9050-44ec-bd06-8dfadee7bf63.jpg) 
-
 STOCHASTIC OFF
 ![StochasticOff](https://user-images.githubusercontent.com/67586167/215687950-4329abc6-bfb1-4dbe-a5e5-2b1eade22a30.jpg)
 
 STOCHASTIC ON
 ![StochasticOn](https://user-images.githubusercontent.com/67586167/215688021-6817aa60-56d1-45c9-b014-9d2ee4412f84.jpg)
 
+![Inspector](https://user-images.githubusercontent.com/67586167/214447555-ddb507dd-9050-44ec-bd06-8dfadee7bf63.jpg) 
 
 How To Use
   1. Add the shader and sub-shaders to your project 
