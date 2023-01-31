@@ -1,8 +1,12 @@
 # Unity-Terrain-Shadergraph
 
-A simple procedural terrain shadergraph for Unity's inbuilt terrain system  created with Unity URP 2022.2.2f1
+A simple procedural terrain shadergraph for Unity's inbuilt terrain system created with Unity URP 2022.2.2f1
 
 Will only work in newer versions of Unity that have enabled shadergraphs for Unity terrain, may work in earlier versions on standard mesh terrains but hasn't been tested.
+
+Version History
+31/01/2023 - Added stochastic node option
+25/01/2023 - Initial commit
 
 Features
   - Detail and Distance textures
@@ -18,6 +22,7 @@ Features
   - Seemlessly transitions between normal, smoothness, and metallic settings based on camera distance
   - Use noise to variegate ground layer between ground texture and mountain texture
   - Doesn't need splatmaps, great for procedural terrain
+  - Stochastic texturing option (Doesn't work across neighbour terrains unfortunately, so you can turn it off if your using more than one terrain)
 
 ![Desert_Distance](https://user-images.githubusercontent.com/67586167/214444915-bb697dc7-62b4-40c1-9159-a69c40e6fcad.jpg)
 
@@ -51,3 +56,4 @@ I have included a bunch of examples in the 'Examples' folder. This folder is not
 Credits
   - I used some custom height blending code by GrrrimReapz on Reddit: https://www.reddit.com/r/Unity3D/comments/pr6sld/height_blending_materials_in_shadergraph/
   - I implemented some of Snubber's ideas from his video on youtube: https://www.youtube.com/watch?v=uJSxqr3a0cA&ab_channel=Snubber
+  - I implemented Junior_Djjr stochastic node, which can be found here: https://github.com/JuniorDjjr/UnityProceduralStochasticTexturingNode
