@@ -25,7 +25,7 @@ Features
   - Seemlessly transitions between normal, smoothness, and metallic settings based on camera distance
   - Use noise to variegate ground layer between ground texture and mountain texture
   - Doesn't need splatmaps, great for procedural terrain
-  - Stochastic texturing option (Doesn't work across neighbour terrains unfortunately, so you can turn it off if your using more than one terrain)
+  - Stochastic texturing option (now tiles seemlessly across neighbour terrains)
 
 Distance
 ![Desert_Distance](https://user-images.githubusercontent.com/67586167/214444915-bb697dc7-62b4-40c1-9159-a69c40e6fcad.jpg)
