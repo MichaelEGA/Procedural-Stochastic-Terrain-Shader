@@ -1,10 +1,13 @@
 # Unity-Terrain-Shadergraph
 
-A simple procedural terrain shadergraph for Unity's inbuilt terrain system created with Unity URP 2022.2.2f1
+A simple procedural terrain shadergraph for Unity's inbuilt terrain system
 
 Will only work in newer versions of Unity that have enabled shadergraphs for Unity terrain, may work in earlier versions on standard mesh terrains but hasn't been tested.
 
+Tested In: Unity 2022.2.2f1
+
 Version History
+  - 01/02/2023 - Stochastic now seemlessly textures across neighbour terrains
   - 31/01/2023 - Added stochastic node option
   - 25/01/2023 - Initial commit
 
