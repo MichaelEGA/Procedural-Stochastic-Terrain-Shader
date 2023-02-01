@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grasslands
+  m_Shader: {fileID: -6465566751694194690, guid: 8271fd2cc42d381458604ab61f11c0e0,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cliff_Texture_Detail:
+        m_Texture: {fileID: 2800000, guid: 6633832890105a541ba0bf3a048589d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cliff_Texture_Distance:
+        m_Texture: {fileID: 2800000, guid: 2b579588e204b914e8f4622aaaf90ad6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ground_Texture_Detail:
+        m_Texture: {fileID: 2800000, guid: 4326ab5ef3b9d654ca80018613cf0b0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ground_Texture_Distance:
+        m_Texture: {fileID: 2800000, guid: 6f648c8fff2d4fc4b96abf50f4c2de2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mountain_Texture_Detail:
+        m_Texture: {fileID: 2800000, guid: 199232608701ddb429567c7b5b4b7de5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mountain_Texture_Distance:
+        m_Texture: {fileID: 2800000, guid: f1b0fdb0e21ae624593d18cf9eed4b34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Peak_Texture_Detail:
+        m_Texture: {fileID: 2800000, guid: 297ae25f58983ad4ca97245091159d2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Peak_Texture_Distance:
+        m_Texture: {fileID: 2800000, guid: fb849e0ead8681540b852c77a4e06b4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shore_Texture_Detail:
+        m_Texture: {fileID: 2800000, guid: 91352503324a32a4ab9cbaabf097cda9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shore_Texture_Distance:
+        m_Texture: {fileID: 2800000, guid: f6bf5a720e9c5c142aad0f819425442a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _Blend_Texture_Layers: 1
+    - _BumpScale: 1
+    - _CastShadows: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cliff_Metallic_Detail: 0
+    - _Cliff_Metallic_Distance: 0
+    - _Cliff_Normal_Detail: 2
+    - _Cliff_Normal_Distance: 3000
+    - _Cliff_Scale_Detail: 0.005
+    - _Cliff_Scale_Distance: 0.005
+    - _Cliff_Smoothness_Detail: 0
+    - _Cliff_Smoothness_Distance: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EnvironmentReflections: 1
+    - _Fade_Distance: 500
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Ground_Height: 100
+    - _Ground_Metallic_Detail: 0
+    - _Ground_Metallic_Distance: 0
+    - _Ground_Normal_Detail: 2
+    - _Ground_Normal_Distance: 3000
+    - _Ground_Scale_Detail: 2000
+    - _Ground_Scale_Distance: 1
+    - _Ground_Smoothness_Detail: 0
+    - _Ground_Smoothness_Distance: 0
+    - _Ground_Texture_Noise: 10
+    - _Metallic: 0
+    - _Mountain_Height: 300
+    - _Mountain_Metallic_Detail: 0
+    - _Mountain_Metallic_Distance: 0
+    - _Mountain_Normal_Detail: 2
+    - _Mountain_Normal_Distance: 3000
+    - _Mountain_Scale_Detail: 2000
+    - _Mountain_Scale_Distance: 1
+    - _Mountain_Smoothness_Detail: 0
+    - _Mountain_Smoothness_Distance: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _Peak_Metallic_Detail: 0
+    - _Peak_Metallic_Distance: 0
+    - _Peak_Normal_Detail: 2
+    - _Peak_Normal_Distance: 3000
+    - _Peak_Scale_Detail: 2000
+    - _Peak_Scale_Distance: 1
+    - _Peak_Smoothness_Detail: 0
+    - _Peak_Smoothness_Distance: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Sea_Height: 25
+    - _Shore_Height: 75
+    - _Shore_Metallic_Detail: 0
+    - _Shore_Metallic_Distance: 0
+    - _Shore_Normal_Detail: 2
+    - _Shore_Normal_Distance: 3000
+    - _Shore_Scale_Detail: 2000
+    - _Shore_Scale_Distance: 1
+    - _Shore_Smoothness_Detail: 0
+    - _Shore_Smoothness_Distance: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _Turn_On_Antitiling_for_Detail: 1
+    - _Turn_On_Antitiling_for_Distance: 1
+    - _Turn_On_Normals: 1
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Cliff_Color_Detail: {r: 0.6980392, g: 0.6942343, b: 0.6941177, a: 0}
+    - _Cliff_Color_Distance: {r: 0.6886792, g: 0.6865135, b: 0.6865135, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Ground_Color_Detail: {r: 0.6320754, g: 0.6300877, b: 0.6300877, a: 0}
+    - _Ground_Color_Distance: {r: 0.6320754, g: 0.6241248, b: 0.6241248, a: 0}
+    - _Mountain_Color_Detail: {r: 0.6698113, g: 0.661386, b: 0.661386, a: 0}
+    - _Mountain_Color_Distance: {r: 0.6603774, g: 0.65207076, b: 0.65207076, a: 0}
+    - _Peak_Color_Detail: {r: 0.6132076, g: 0.60549426, b: 0.60549426, a: 0}
+    - _Peak_Color_Distance: {r: 0.6792453, g: 0.67070127, b: 0.67070127, a: 0}
+    - _Shore_Color_Detail: {r: 0.6132076, g: 0.60549426, b: 0.60549426, a: 0}
+    - _Shore_Color_Distance: {r: 0.6132076, g: 0.60549426, b: 0.60549426, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &4550507885434147187
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
