@@ -4,7 +4,7 @@ A simple procedural terrain shadergraph for Unity's inbuilt terrain system
 
 Will only work in newer versions of Unity that have enabled shadergraphs for Unity terrain, may work in earlier versions on standard mesh terrains but hasn't been tested.
 
-Tested In: Unity 2022.2.2f1
+Tested In: Unity URP 2022.2.2f1
 
 Version History
   - 01/02/2023 - Stochastic now seemlessly textures across neighbour terrains
