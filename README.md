@@ -2,7 +2,7 @@
 
 A simple procedural terrain shadergraph for Unity's inbuilt terrain system
 
-Get it here: https://github.com/michael-evan-allison/Unity-Terrain-Shadergraph
+Get it here: https://github.com/michael-evan-allison/Procedural-Stochastic-Terrain-Shader
 
 Tested In: Unity URP 2022.2.2f1
 
