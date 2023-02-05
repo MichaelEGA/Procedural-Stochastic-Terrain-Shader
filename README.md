@@ -73,3 +73,5 @@ Credits
   - I implemented some of Snubber's ideas from his video on youtube: https://www.youtube.com/watch?v=uJSxqr3a0cA&ab_channel=Snubber
   - I implemented Junior_Djjr stochastic node, which can be found here: https://github.com/JuniorDjjr/UnityProceduralStochasticTexturingNode
   - Textures in example files from textures.com
+  
+  Licensed under Apache 2.0
