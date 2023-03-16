@@ -4,7 +4,7 @@ A simple procedural terrain shadergraph for Unity's inbuilt terrain system
 
 Get it here: https://github.com/michael-evan-allison/Procedural-Stochastic-Terrain-Shader
 
-Tested In: Unity URP 2022.2.2f1
+Tested In: Unity URP 2022.2.2f1, Unity URP 2022.2.9f1
 
 Version History
   - 01/02/2023 - Stochastic now seemlessly textures across neighbour terrains
