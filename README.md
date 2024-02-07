@@ -1,5 +1,7 @@
 # Procedural Stochastic Terrain Shader
 
+UPDATE: I made an improved, better looking, and more simple shader here: https://github.com/MichaelEGA/SuperSimpleTerrainShader
+
 A simple procedural terrain shadergraph for Unity's inbuilt terrain system
 
 Get it here: https://github.com/michael-evan-allison/Procedural-Stochastic-Terrain-Shader
